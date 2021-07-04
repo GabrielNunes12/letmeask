@@ -1,15 +1,10 @@
-import { useState } from 'react';
+import { ButtonHTMLAttributes } from 'react'; 
+import '../styles/button.scss';
 
-export function ButtonText() {
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
-  const [number, setNumber] = useState(0);
-
-  function increment() {
-    setNumber(number + 1);
-  }
+export function ButtonText(props: ButtonProps) {
   return (
-    <button onClick={increment}>
-      {number}
-    </button>
+    <button className="button" {...props}/>
   )
 }
