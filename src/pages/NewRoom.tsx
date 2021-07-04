@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
-import { AuthContext } from '../App';
+import { AuthContext } from '../contexts/AuthContext';
 import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
 import '../styles/auth.scss';
@@ -9,6 +9,7 @@ import { ButtonText } from '../components/Button';
 
 export function NewRoom() {
   const { user } = useContext(AuthContext);
+  console.log(user);
   return(
     <div id="page-auth">
       <aside>
@@ -19,7 +20,23 @@ export function NewRoom() {
       <main>
         <div className="main-content">
           <img src={logoImg} alt="Letmeask" />
-          <h1>{`Hi, ${user?.name}`}</h1>
+          <br />
+          <hr />
+          <h1>Details account</h1>
+          <h3>
+            <br />
+            {`Your name is: ${user?.name}`}
+          </h3>
+          <br />
+          <h3>
+            {`Your email: ${user?.email}`}
+          </h3>
+          <br />
+          <h3>
+            {`Your email is verified? : ${user?.emailVerified ? 'Verified' : 'Not verified'}`}
+          </h3>
+          <br />
+          <hr />
           <h2>Criar uma nova sala</h2>
           <form>
             <input 
