@@ -9,7 +9,6 @@ import { ButtonText } from '../components/Button';
 
 export function NewRoom() {
   const { user } = useContext(AuthContext);
-  console.log(user);
   return(
     <div id="page-auth">
       <aside>
