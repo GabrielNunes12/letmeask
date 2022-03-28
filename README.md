@@ -19,12 +19,13 @@ License <br/>
 💻 Technologies <br/>
 This project was made using the follow technologies:
 
-Vuejs <br/>
-BootstrapVue <br/>
-VueRouter <br/>
+Reactjs <br/>
+Styled-components <br/>
+React-router <br/>
 Axios<br/>
-vue-i18n<br/>
-Jest <br/>
+Typescript<br/>
+Jest<br/>
+testing-library/react<br/>
 
 Database <br/>
 Firebase service <br/>
