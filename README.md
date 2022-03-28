@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# masteringJS-using-vuejs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LetMeAsk
 
-## Available Scripts
+🚀 LetMeAsk It is a project to help people to create new connection with world around them.
 
-In the project directory, you can run:
+English 
 
-### `yarn start`
+Built with ❤︎ by Gabriel Nunes and contributors
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+📌 Table of Contents <br />
+Technologies <br/>
+Database <br/>
+Features <br/>
+How to Run <br/>
+Found a bug? Missing a specific feature? <br/>
+Contributing <br/>
+License <br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+👀 Visualization <br/>
+👉 demo: ![Screenshot_1](https://user-images.githubusercontent.com/48297244/119278101-8f475680-bbf9-11eb-8311-ea00f9dab941.png)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💻 Technologies <br/>
+This project was made using the follow technologies:
 
-### `yarn build`
+Vuejs <br/>
+BootstrapVue <br/>
+VueRouter <br/>
+Axios<br/>
+vue-i18n<br/>
+Jest <br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Database <br/>
+Firebase service <br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🚀 Features <br/>
+Create a room to chat with someone. <br/>
+Creating account using Google <br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👷 How to run <br/>
+# Clone Repository <br/>
+$ git clone https://github.com/GabrielNunes12/letmeask.git
 
-### `yarn eject`
+💻 Run Web Project <br/>
+# Install Dependencies <br/>
+$ yarn install <br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Run Aplication <br/>
+$ yarn start <br/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Go to http://localhost:3000/ to see the result.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Here's some tips:
 
-## Learn More
+Check the issues page for already opened issues (or maybe even closed ones) that might already address your question/bug/feature request.
+Feature requests are welcomed! Provide some details on why it would be helpful for you and others, explain how you're using bull-board and if possible even some screenshots if you are willing to mock something!
+Check out the contributing page to see the best places to file issues, start discussions and begin contributing.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📕 License
+Released in 2021
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Give a ⭐️ if this project helped you!
