@@ -17,9 +17,6 @@ Found a bug? Missing a specific feature? <br/>
 Contributing <br/>
 License <br/>
 
-👀 Visualization <br/>
-👉 demo: ![Screenshot_1](https://user-images.githubusercontent.com/48297244/119278101-8f475680-bbf9-11eb-8311-ea00f9dab941.png)
-
 
 💻 Technologies <br/>
 This project was made using the follow technologies:
