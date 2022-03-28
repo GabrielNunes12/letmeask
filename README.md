@@ -1,5 +1,3 @@
-# masteringJS-using-vuejs
-
 LetMeAsk
 
 🚀 LetMeAsk It is a project to help people to create new connection with world around them.
